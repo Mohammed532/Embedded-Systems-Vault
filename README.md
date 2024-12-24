@@ -1,0 +1,1 @@
+Obsidian vault for notes regarding to my learnings on embedded systems programming.
