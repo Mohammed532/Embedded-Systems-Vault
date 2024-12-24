@@ -25,3 +25,13 @@ Fix didn't work when error came up again :(
 **Note**: When running the code in bram, all of the registers had the same error, im assuming the blaze cpu didnt reset properly between code runs and needed to be cleared before being able to properly run again.
 
 Possible fix: https://medium.com/@caglayandokme/extending-the-memory-limits-of-microblaze-with-an-external-ddr-6c896e75c218
+
+
+### Frequency Mismatch Between Ram Interconnect and MIG
+
+This error and how to fix is desribed in [[Steps for Creating FPGA Design#^37e3c9]]
+![[Steps for Creating FPGA Design#^345f24]]
+
+### Failed to Generate IP 'mig_7series'
+
+Attempted fix: generating block design first then running synthesis

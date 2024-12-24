@@ -17,12 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Writing to 7seg display.md",
+                    "file": "Encountered Errors and Debug Techniques.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Writing to 7seg display"
+                  "title": "Encountered Errors and Debug Techniques"
                 }
               },
               {
@@ -31,16 +31,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Temperature Sensor/Temperature Sensor Project.md",
+                    "file": "Encountered Errors and Debug Techniques.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Temperature Sensor Project"
+                  "title": "Encountered Errors and Debug Techniques"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "c6e4ad3fcf626f1b",
@@ -78,8 +77,8 @@
                       },
                       "serial": {
                         "columns": 92,
-                        "data": "mo@Mohammeds-MBP Embedded System % git status\r\nfatal: not a git repository (or any of the parent directories): .git\r\nmo@Mohammeds-MBP Embedded System % ls \r\nCreate Bare Metal Software.md\r\nEncountered Errors and Debug Techniques.md\r\nPasted image 20241211130544.png\r\nPasted image 20241211131500.png\r\nProject Ideas.md\r\nSteps for Creating FPGA Design.md\r\nTemperature Sensor\r\nWriting to 7seg display.md\r\nWriting to GPIO devices.md\r\nmo@Mohammeds-MBP Embedded System % git init\r\nInitialized empty Git repository in /Users/mo/Documents/Embedded System/.git/\r\nmo@Mohammeds-MBP Embedded System % git status\r\nOn branch main\r\n\r\nNo commits yet\r\n\r\nUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.DS_Store\r\n\u001b[8C.obsidian/\r\n\u001b[8CCreate Bare Metal Software.md\r\n\u001b[8CEncountered Errors and Debug Techniques.md\r\n\u001b[8CPasted image 20241211130544.png\r\n\u001b[8CPasted image 20241211131500.png\r\n\u001b[8CProject Ideas.md\r\n\u001b[8CREADME.md\r\n\u001b[8CSteps for Creating FPGA Design.md\r\n\u001b[8CTemperature Sensor/\r\n\u001b[8CUntitled 1.md\r\n\u001b[8CUntitled.md\r\n\u001b[8CWriting to 7seg display.md\r\n\u001b[8CWriting to GPIO devices.md\r\n\r\n\u001b[0mnothing added to commit but untracked files present (use \"git add\" to track)\r\nmo@Mohammeds-MBP Embedded System % git ls -a\r\ngit: 'ls' is not a git command. See 'git --help'.\r\n\r\nThe most similar command is\r\n\u001b[8Clog\r\nmo@Mohammeds-MBP Embedded System % ls -a\r\n.\r\n..\r\n.DS_Store\r\n.git\r\n.obsidian\r\nCreate Bare Metal Software.md\r\nEncountered Errors and Debug Techniques.md\r\nPasted image 20241211130544.png\r\nPasted image 20241211131500.png\r\nProject Ideas.md\r\nREADME.md\r\nSteps for Creating FPGA Design.md\r\nTemperature Sensor\r\nUntitled 1.md\r\nUntitled.md\r\nWriting to 7seg display.md\r\nWriting to GPIO devices.md\r\nmo@Mohammeds-MBP Embedded System % vim .gitignore\r\nYou need vim compiled with Python 2.6, 2.7 or 3.2 and later support\r\nfor Powerline to work. Please consult the documentation for more\r\ndetails.\r\nPress ENTER or type command to continue\r\nmo@Mohammeds-MBP Embedded System % ls -a\r\n.\r\n..\r\n.DS_Store\r\n.git\r\n.gitignore\r\n.obsidian\r\nCreate Bare Metal Software.md\r\nEncountered Errors and Debug Techniques.md\r\nPasted image 20241211130544.png\r\nPasted image 20241211131500.png\r\nProject Ideas.md\r\nREADME.md\r\nSteps for Creating FPGA Design.md\r\nTemperature Sensor\r\nUntitled 1.md\r\nUntitled.md\r\nWriting to 7seg display.md\r\nWriting to GPIO devices.md\r\nmo@Mohammeds-MBP Embedded System % vim .gitignore\r\nYou need vim compiled with Python 2.6, 2.7 or 3.2 and later support\r\nfor Powerline to work. Please consult the documentation for more\r\ndetails.\r\nPress ENTER or type command to continue\r\nmo@Mohammeds-MBP Embedded System % git add .gitignore \r\nmo@Mohammeds-MBP Embedded System % git commit -m \"Updated gitignore\"\r\n[main (root-commit) 9ac898d] Updated gitignore\r\n Committer: Mohammed Akinbayo <mo@mohammeds-mbp.mynetworksettings.com>\r\nYour name and email address were configured automatically based\r\non your username and hostname. Please check that they are accurate.\r\nYou can suppress this message by setting them explicitly. Run the\r\nfollowing command and follow the instructions in your editor to edit\r\nyour configuration file:\r\n\r\n    git config --global --edit\r\n\r\nAfter doing this, you may fix the identity used for this commit with:\r\n\r\n    git commit --amend --reset-author\r\n\r\n 1 file changed, 1 insertion(+)\r\n create mode 100644 .gitignore\r\nmo@Mohammeds-MBP Embedded System % git status\r\nOn branch main\r\nUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/\r\n\u001b[8CCreate Bare Metal Software.md\r\n\u001b[8CEncountered Errors and Debug Techniques.md\r\n\u001b[8CPasted image 20241211130544.png\r\n\u001b[8CPasted image 20241211131500.png\r\n\u001b[8CProject Ideas.md\r\n\u001b[8CREADME.md\r\n\u001b[8CSteps for Creating FPGA Design.md\r\n\u001b[8CTemperature Sensor/\r\n\u001b[8CUntitled 1.md\r\n\u001b[8CUntitled.md\r\n\u001b[8CWriting to 7seg display.md\r\n\u001b[8CWriting to GPIO devices.md\r\n\r\n\u001b[0mnothing added to commit but untracked files present (use \"git add\" to track)\r\nmo@Mohammeds-MBP Embedded System % git add ",
-                        "rows": 22
+                        "data": "mo@Mohammeds-MBP Embedded System % ",
+                        "rows": 20
                       }
                     }
                   },
@@ -244,18 +243,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ebbb8a56cf4da690",
+  "active": "ed9073fd64c8dee4",
   "lastOpenFiles": [
+    "Steps for Creating FPGA Design.md",
+    "Encountered Errors and Debug Techniques.md",
+    "Writing to 7seg display.md",
     "Temperature Sensor/Temperature Sensor Project.md",
     "Project Ideas.md",
     "Create Bare Metal Software.md",
-    "Steps for Creating FPGA Design.md",
     "README.md",
     "Untitled",
     "Untitled 1.md",
     "Untitled.md",
-    "Encountered Errors and Debug Techniques.md",
-    "Writing to 7seg display.md",
     "Writing to GPIO devices.md",
     "Pasted image 20241211130544.png",
     "Pasted image 20241211131500.png",
