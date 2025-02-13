@@ -3,6 +3,7 @@ aliases:
   - Temperature Sensor
 tags:
   - project
+  - a7-50t
 ---
 ## Synopsis
 
@@ -25,7 +26,7 @@ The purpose of this project is to utilize the temperature sensor on board the A7
 1. Write HDL for the needed components
 	- [[Steps for Creating FPGA Design]]
 2. Write bare metal software for reading sensor and button and writing to display
-	- [[Reading I2C sensor]]
+	- [[Reading I2C Temp sensor]]
 	- [[Writing to 7seg display]]
 	- 
 	

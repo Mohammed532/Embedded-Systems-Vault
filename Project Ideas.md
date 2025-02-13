@@ -1,4 +1,5 @@
 - [ ] [[Temperature Sensor Project|Temperature Sensor]]
 - [ ] [[Memory Test]]
 - [ ] [[VGA Driver]]
-- [ ] 
+- [ ] [[LeFlow Mini Project]]
+- [ ] [[NLP Project]]

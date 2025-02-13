@@ -4,93 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "608c7fd788b7b510",
-        "type": "split",
+        "id": "2de3f85f2d5a3144",
+        "type": "tabs",
         "children": [
           {
-            "id": "bccd7ec6ba59cccf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ed9073fd64c8dee4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Encountered Errors and Debug Techniques.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Encountered Errors and Debug Techniques"
-                }
+            "id": "6caf4c87cffbf48c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimizers.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "084e868ead5ac269",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Encountered Errors and Debug Techniques.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Encountered Errors and Debug Techniques"
-                }
-              }
-            ]
-          },
-          {
-            "id": "c6e4ad3fcf626f1b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ebbb8a56cf4da690",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/mo/Documents/Embedded System",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/zsh",
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 92,
-                        "data": "mo@Mohammeds-MBP Embedded System % ",
-                        "rows": 20
-                      }
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: zsh"
-                }
-              }
-            ]
+              "icon": "lucide-file",
+              "title": "Optimizers"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,22 +174,31 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ed9073fd64c8dee4",
+  "active": "6caf4c87cffbf48c",
   "lastOpenFiles": [
-    "Steps for Creating FPGA Design.md",
-    "Encountered Errors and Debug Techniques.md",
-    "Writing to 7seg display.md",
-    "Temperature Sensor/Temperature Sensor Project.md",
+    "NLP Project/LeFlow Mini Project.md",
+    "Optimizers.md",
+    "NLP Project/Loss Function.md",
+    "NLP Project/Python Version and Environment Control.md",
     "Project Ideas.md",
-    "Create Bare Metal Software.md",
-    "README.md",
-    "Untitled",
+    "NLP Project/Creating a Model with Tensorflow.md",
+    "NLP Project/Finding or Loading Datasets.md",
+    "NLP Project/NLP Project.md",
+    "Temperature Sensor/Temperature Sensor Project.md",
     "Untitled 1.md",
     "Untitled.md",
+    "Finding/Loading Dataset.md",
+    "Finding",
+    "Steps for Creating FPGA Design.md",
+    "Create Bare Metal Software.md",
+    "NLP Project",
     "Writing to GPIO devices.md",
+    "Temperature Sensor/Reading I2C Temp sensor.md",
+    "Writing to 7seg display.md",
+    "Encountered Errors and Debug Techniques.md",
+    "README.md",
     "Pasted image 20241211130544.png",
     "Pasted image 20241211131500.png",
-    "Reading I2C sensor.md",
     "Temperature Sensor.md",
     "Tempurature.md",
     "().md",

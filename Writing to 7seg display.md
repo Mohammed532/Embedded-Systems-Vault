@@ -9,6 +9,8 @@ Best way of understanding, writing to the bit corresponding to the proper cathod
 ![[Pasted image 20241211131500.png]]
 _7seg Alphabet_
 
+**NOTE!!**: Turns out, writing a 1 turns OFF the segment/anode. That was fun to learn :)))))
+
 ### Order of segment bits
 
 Obtained by looking at package pins of the IO ports 

@@ -1,5 +1,18 @@
 
-### Memory Write Error at 0x80000000000
+## Vivado
+
+### Frequency Mismatch Between Ram Interconnect and MIG
+
+This error and how to fix is desribed in [[Steps for Creating FPGA Design#^37e3c9]]
+![[Steps for Creating FPGA Design#^345f24]]
+
+### Failed to Generate IP 'mig_7series'
+
+Attempted fix: generating block design first then running synthesis
+Oh yeaa #thatshitworked #imthatnigga
+
+## Vitis
+### Memory Write Error at 0x80000000000 #unfixed
 
 Accidentally created an infinite for loop that kept shifting a bit value to the left
 
@@ -26,12 +39,10 @@ Fix didn't work when error came up again :(
 
 Possible fix: https://medium.com/@caglayandokme/extending-the-memory-limits-of-microblaze-with-an-external-ddr-6c896e75c218
 
+Fix didn't work, needed to restart project anyways.
 
-### Frequency Mismatch Between Ram Interconnect and MIG
+**Note**: When debugging for the second time, some variables remained the same. This supports my idea that the values aren't resetting. Doing a rebuild seemed to have reset the values
 
-This error and how to fix is desribed in [[Steps for Creating FPGA Design#^37e3c9]]
-![[Steps for Creating FPGA Design#^345f24]]
+### C Build Fail (After adding header/source files)
 
-### Failed to Generate IP 'mig_7series'
-
-Attempted fix: generating block design first then running synthesis
+In the Application project, under Settings>UserConfig.cmake, add the additional header/source files. Rebuild
