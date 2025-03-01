@@ -36,3 +36,11 @@ Using LeFlow to create a RTL implementation for a simple number classification m
 - Francois Chollet
 - Use Claude for creating tutorial (jupyter notebooks, visualization)
 - Implement `tensorflow-metal` python plugin for acceleration on mac
+- Overfitting
+	- too little data
+	- model too big
+- Lenet
+- BGG: 16 layers
+- Play Around with adaptive learning rate
+- CNN: segmentation
+- Transformer: language, speech-to-text,

@@ -32,6 +32,7 @@ To create a virtual environment
 To start the virtual environment
 - `source <virtual-envrionment-name>/bin/activate`
 	- `source env/bin/activate`
+- Windows: `<virtual-environment-name>/Scripts/activate.bat`
 
 ## Note
  - Might need to follow additional steps to share virtual environment.
